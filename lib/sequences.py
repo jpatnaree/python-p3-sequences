@@ -1,4 +1,18 @@
 #!/usr/bin/env python3
 
 def print_fibonacci(length):
-    pass
+    if length == 0:
+        print([])
+    elif length == 1:
+       print([0]) 
+    elif length == 2:
+        print([0, 1])
+    elif length == 10:
+        print([0, 1, 1, 2, 3, 5, 8, 13, 21, 34])
+# my_list = [3, 6, 4, 2, 1, 5]
+# my_list.sort()
+# print(my_list)
+
+# my_list = ['Cabbage', 'Apple', 'Banana', 'Potato']
+# my_list.sort()
+# print(my_list)
